@@ -3,5 +3,5 @@ function Dice(){
 }
 
 Dice.prototype.roll = function(){
-    this.rollScore = 1 
+    this.rollScore += 1 
 }

@@ -14,6 +14,15 @@ describe("Game", function() {
         game.score()
         expect(game.rollScore).toEqual(1);
       });
+
+      it("Gives the total score of the rolls", function(){
+        dice.roll()
+        dice.roll()
+        dice.roll()
+        game.score()
+        game.total()
+        expect(game.totalScore).toEqual(3)
+      })
     });
   });
   
