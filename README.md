@@ -1,4 +1,4 @@
-* Dice App 
+# Dice-App
 
 Create a Dice App programm that rolls a dice
 
@@ -14,4 +14,3 @@ Create a Dice App programm that rolls a dice
 - Can view the Total Score 
 - Can view the number of rolls 
 
-# Dice-App

@@ -1,8 +1,7 @@
 function Dice(){
-this.roll = 0
+    this.rollScore = 0 
 }
 
 Dice.prototype.roll = function(){
-    this.roll = Math.floor(Math.random() * 6)
+    this.rollScore = 1 
 }
-
